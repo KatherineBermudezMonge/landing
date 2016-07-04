@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" class="no-js" ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="icon" href="">
+		<title></title>
+ 		<!-- Bootstrap -->
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	<header>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Brand</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Inicio</a></li>
+		        <li><a href="#">Cotizame</a></li>
+		        <li><a href="#">Catalogo</a></li>
+		        <li><a href="#">Galeria</a></li>
+		        <li><a href="#">Making of</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
+	<section class="home-video">
+		<button type="button" class="btn btn-default" aria-label="Left Align">
+		  <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+		</button>		
+		<h2>EL PRIMER ANUNCIO HECHO POR UN CARRO</h2>
+	</section>
+
+	<section class="home-gallery">
+		<div class="container">
+			<div class="row">
+			  <div class="col-xs-12 col-md-6">
+			  	<div class="embed-responsive embed-responsive-16by9">
+		    		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+				</div>
+			  </div>
+			  <div class="col-xs-12 col-md-6">
+			  	<div class="embed-responsive embed-responsive-4by3">
+		    		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</section>
+	<section class="form-container">
+		<form class="form-horizontal">
+			<h3>Danos tus datos y te enviaremos una cotización</h3>
+			<input type="text" class="form-control" id="inputEmail3" placeholder="Nombre completo">
+			<input type="email" class="form-control" id="inputPassword3" placeholder="Email">
+			<input type="" class="form-control" id="inputPassword3" placeholder="Teléfono">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h4>Seleccione el modelo</h4>
+					</div>
+
+					<div class="col-xs-12 col-md-4">
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+						    <img src="images/duster4x4.png">
+						    <h5>DUSTER 4x4</h5>
+						  </label>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-md-4">
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+						    <img src="images/duster1600.png">
+						    <h5>DUSTER 1600</h5>
+						  </label>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-md-4">
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+						    <img src="images/dusterAutomatico.png">
+						    <h5>DUSTER AUTOMATICO</h5>
+						  </label>
+						</div>
+					</div>
+
+					<div class="col-xs-12 button-container">
+						<button type="submit" class="btn btn-default">Enviar</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</section>
+
+    	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
